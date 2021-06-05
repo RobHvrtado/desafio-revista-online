@@ -1,0 +1,40 @@
+.listado-izquierdo {
+    grid-area: listadoizquierdo;
+    width: 100%;
+  }
+  
+  .cabecera-listado {
+    width: 220px;
+    border-bottom: 1px solid gray;
+  }
+  
+.tags {
+    border-bottom: 1px solid gray;
+    background-color: steelblue;
+    color:white;
+    padding: 2px 4px;
+    display:flex;
+    width: 220px;
+    height:76px;
+  
+  
+  .tags ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .tags ul li {
+    padding: 2px 4px;
+    margin-right: 1px;
+    
+  }
+}
+
+.noticias-destacadas {
+    margin-bottom: 50px;
+  }
+  
+  .noticias-destacadas img {
+    width: 220px;
+    height: 200px;
+  }
